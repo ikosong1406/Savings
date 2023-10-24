@@ -1,0 +1,379 @@
+.header {
+  width: 100%;
+  background: rgb(198, 6, 126);
+  background: linear-gradient(
+    180deg,
+    rgba(198, 6, 126, 1) 0%,
+    rgba(198, 6, 126, 1) 50%,
+    rgba(147, 14, 190, 1) 100%
+  );
+  text-align: center;
+  padding-top: 10%;
+  color: white;
+}
+.banner-mobile1 {
+  width: 700px;
+  height: 300px;
+}
+.apple {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.google {
+  width: 230px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.section1 {
+  width: 100%;
+  background: rgb(198, 131, 6);
+  background: linear-gradient(
+    180deg,
+    rgba(198, 131, 6, 1) 0%,
+    rgba(196, 112, 223, 1) 100%
+  );
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section1 h3 {
+  text-align: center;
+  font-weight: 900;
+}
+.section1 p {
+  text-align: center;
+  color: white;
+}
+.section2 {
+  width: 100%;
+  background: rgb(198, 6, 126);
+  background: linear-gradient(
+    180deg,
+    rgba(198, 6, 126, 1) 0%,
+    rgba(198, 6, 126, 1) 50%,
+    rgba(147, 14, 190, 1) 100%
+  );
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+.section2 .cover {
+  display: flex;
+  margin-top: 40px;
+}
+.section2 h3 {
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+.part2 img {
+  width: 300px;
+  height: auto;
+}
+.p1 {
+  display: flex;
+  margin-left: 150px;
+}
+.p1 p {
+  width: 400px;
+  margin-top: 50px;
+  font-size: 15px;
+}
+.p1 .hr {
+  background-color: white;
+  width: 40%;
+  height: 2px;
+  margin-top: 100px;
+}
+.p2 {
+  display: flex;
+  margin-right: 20%;
+}
+.p2 p {
+  width: 500px;
+  margin-top: 30px;
+  font-size: 15px;
+  margin-left: 5%;
+}
+.p2 .hr {
+  background-color: white;
+  width: 40%;
+  height: 2px;
+  margin-top: 100px;
+}
+
+.section3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  background: rgb(198, 131, 6);
+  background: linear-gradient(
+    180deg,
+    rgba(198, 131, 6, 1) 0%,
+    rgba(196, 112, 223, 1) 100%
+  );
+}
+.card {
+  background-color: #80050500;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  margin-top: 50px;
+}
+.section3 h3 {
+  font-weight: 900;
+  text-align: center;
+}
+.card1 {
+  margin-left: 12%;
+}
+.card2 {
+  margin-left: 12%;
+}
+.card3 {
+  margin-left: 12%;
+}
+.card1 h3,
+.card2 h3,
+.card3 h3 {
+  width: 250px;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.card1 p,
+.card2 p,
+.card3 p {
+  width: 250px;
+  font-size: 15px;
+  color: white;
+}
+.card1 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-left: 50px;
+}
+.card2 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-left: 50px;
+}
+.card3 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-left: 50px;
+}
+.section4 {
+  width: 100%;
+  background: rgb(198, 6, 126);
+  background: linear-gradient(
+    180deg,
+    rgba(198, 6, 126, 1) 0%,
+    rgba(198, 6, 126, 1) 50%,
+    rgba(147, 14, 190, 1) 100%
+  );
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section4 h3 {
+  font-weight: 900;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer {
+  background: rgb(181, 7, 116);
+  background: linear-gradient(
+    317deg,
+    rgba(181, 7, 116, 1) 0%,
+    rgba(163, 172, 7, 1) 100%
+  );
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.vr {
+  width: 1px;
+  height: 20px;
+  background-color: #800505;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.footer a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+.footer p {
+  font-size: 13px;
+  width: 200px;
+}
+.footer-links {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.footer .container {
+  margin-left: 40%;
+  font-size: 18px;
+}
+.container p {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-top: 20%;
+  }
+  .header h2,
+  .header p {
+    font-size: 12px;
+  }
+  .banner-mobile1 {
+    width: 250px;
+    height: 100px;
+  }
+  .download {
+    display: flex;
+    margin-top: 20px;
+  }
+  .apple {
+    width: 100px;
+    height: auto;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .google {
+    width: 110px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  .section1 h3 {
+    font-size: 18px;
+  }
+  .section1 p {
+    font-size: 14px;
+  }
+  .section2 {
+    padding-top: 10px;
+  }
+  .section2 .cover {
+    margin-top: 20px;
+  }
+  .section2 h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .part2 img {
+    width: 150px;
+    height: 400px;
+  }
+  .p1 {
+    margin-left: 10%;
+  }
+  .p1 p {
+    width: 100px;
+    margin-top: 25px;
+    font-size: 3px;
+  }
+  .p1 .hr {
+    width: 20%;
+    height: 2px;
+    margin-top: 50px;
+  }
+  .p2 {
+    display: flex;
+    margin-right: 10%;
+  }
+  .p2 p {
+    width: 100px;
+    margin-top: 15px;
+    font-size: 3px;
+    margin-left: 2%;
+  }
+  .p2 .hr {
+    background-color: white;
+    width: 20%;
+    height: 2px;
+    margin-top: 50px;
+  }
+
+  .section3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .card {
+    margin-top: 25px;
+    display: grid;
+    margin-left: 20%;
+  }
+  .section3 h3 {
+    font-size: 18px;
+  }
+  .card1 h3,
+  .card2 h3,
+  .card3 h3 {
+    width: 150px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .card1 p,
+  .card2 p,
+  .card3 p {
+    width: 150px;
+    font-size: 7px;
+  }
+  .card1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+  }
+  .card2 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+  }
+  .card3 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+  }
+  .section4 {
+    padding-top: 10px;
+  }
+  .section4 h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .footer {
+    padding-top: 10px;
+    display: grid;
+  }
+  .vr {
+    width: 1px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .footer a {
+    font-size: 10px;
+    width: 50px;
+  }
+  .footer p {
+    font-size: 10px;
+    text-align: center;
+    width: 200px;
+  }
+}

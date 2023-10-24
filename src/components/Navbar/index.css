@@ -1,0 +1,46 @@
+.navContainer {
+  width: 100%;
+  height: auto;
+  background-color: #c80672;
+  display: flex;
+  padding: 10px;
+  position: fixed;
+  z-index: 99;
+}
+.logo {
+  width: 200px;
+  height: auto;
+  margin-left: 50%;
+}
+#navlinks {
+  display: flex;
+  margin-left: 50%;
+  margin-top: 1%;
+}
+.home-link,
+.about-link,
+.coach-link,
+.contact-link {
+  text-decoration: none;
+  color: white;
+  margin-left: 5%;
+  font-size: 13px;
+}
+.coach-link {
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .navContainer {
+    padding: 5px;
+    width: 100%;
+  }
+  .logo {
+    width: 100px;
+    margin-left: 20%;
+    margin-top: 10px;
+  }
+  #navlinks {
+    display: none;
+  }
+}
