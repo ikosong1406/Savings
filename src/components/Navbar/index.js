@@ -7,6 +7,10 @@ import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
+  const handleNavigation = (sectionId) => {
+    window.location.href = `#${sectionId}`;
+  };
+
   return (
     <div className="navContainer">
       <Link to="/" onClick={() => setShowNav(false)}>
@@ -25,7 +29,7 @@ const Navbar = () => {
         <NavLink
           activeclassname="active"
           className="about-link"
-          to="/portfolio"
+          to="/about"
           onClick={() => setShowNav(false)}
         >
           <h3>ABOUT</h3>
@@ -33,8 +37,9 @@ const Navbar = () => {
         <NavLink
           activeclassname="active"
           className="contact-link"
-          to="/contact"
-          onClick={() => setShowNav(false)}
+          // to="/contact"
+          // onClick={() => setShowNav(false)}
+          onClick={() => handleNavigation("contact")}
         >
           <h3>CONTACT</h3>
         </NavLink>

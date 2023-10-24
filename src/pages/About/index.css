@@ -1,0 +1,30 @@
+.about-header {
+  width: 100%;
+  background: rgb(198, 6, 126);
+  background: linear-gradient(
+    180deg,
+    rgba(198, 6, 126, 1) 0%,
+    rgba(198, 6, 126, 1) 50%,
+    rgba(147, 14, 190, 1) 100%
+  );
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  color: white;
+}
+.about-header h3 {
+  font-size: 30px;
+}
+.body {
+  padding: 50px;
+}
+
+@media (max-width: 768px) {
+  .about-header h3 {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  .body {
+    padding: 20px;
+  }
+}

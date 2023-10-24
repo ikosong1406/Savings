@@ -140,7 +140,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="section4">
+        <div class="section4" id="contact">
           <h3>CONTACT US</h3>
           <ContactForm />
         </div>
