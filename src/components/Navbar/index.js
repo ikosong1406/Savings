@@ -78,7 +78,9 @@ const Navbar = () => {
           )}
         </div>
         <div className="button">
-          <h6>Vendor Login </h6>
+          <h6>Login </h6>
+          <div className="vr2" />
+          <h6> Sign up</h6>
         </div>
       </nav>
     </div>

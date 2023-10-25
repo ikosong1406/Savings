@@ -44,20 +44,28 @@
   margin-left: 15px;
 }
 .button {
-  margin-top: -15px;
-  margin-left: -10px;
-}
-h6 {
-  color: white;
+  display: flex;
   background: rgb(198, 131, 6);
   background: linear-gradient(
     180deg,
     rgba(198, 131, 6, 1) 0%,
     rgba(196, 112, 223, 1) 100%
   );
-  padding: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
+  height: 40px;
+  margin-top: 10px;
+}
+h6 {
+  color: white;
   width: 70px;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.vr2 {
+  width: 3px;
+  height: 40px;
+  background-color: white;
 }
 
 @media (max-width: 768px) {
@@ -82,19 +90,34 @@ h6 {
     margin-top: 10px;
     margin-left: 3%;
   }
-  .button {
-    margin-top: 0px;
-    /* margin-left: -10px; */
-  }
-  h6 {
-    padding: 10px;
-    font-size: 5px;
-    width: 40px;
-  }
   .dropdown-container h3 {
     width: 100px;
     margin-left: 10px;
     margin-top: 16px;
     font-weight: 800;
+  }
+  .button {
+    display: flex;
+    background: rgb(198, 131, 6);
+    background: linear-gradient(
+      180deg,
+      rgba(198, 131, 6, 1) 0%,
+      rgba(196, 112, 223, 1) 100%
+    );
+    border-radius: 15px;
+    height: 30px;
+    margin-top: 7px;
+  }
+  h6 {
+    color: white;
+    width: 50px;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 7px;
+  }
+  .vr2 {
+    width: 3px;
+    height: 30px;
+    background-color: white;
   }
 }
