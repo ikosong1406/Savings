@@ -47,7 +47,6 @@
 @media (max-width: 768px) {
   .navContainer {
     padding: 5px;
-    width: 100%;
   }
   .logo {
     width: 100px;
@@ -55,6 +54,15 @@
     margin-top: 10px;
   }
   #navlinks {
-    display: none;
+    display: flex;
+    margin-left: 7%;
+    margin-top: 1%;
+  }
+  .home-link,
+  .about-link,
+  .coach-link,
+  .contact-link {
+    font-size: 7px;
+    margin-top: 10px;
   }
 }

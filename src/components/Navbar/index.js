@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./index.css";
 import Logo from "../../Imgs/logo2.png";
 import { Link, NavLink } from "react-router-dom";
-// import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -10,11 +11,6 @@ const Navbar = () => {
 
   const toggleDropdown = () => {
     setShowDropdown(!showDropdown);
-  };
-
-  const handleNavigation = (sectionId) => {
-    window.location.href = `#${sectionId}`;
-    setShowNav(false);
   };
 
   return (
@@ -82,20 +78,6 @@ const Navbar = () => {
           )}
         </div>
       </nav>
-      {/* <FontAwesomeIcon
-        onClick={() => setShowNav(false)}
-        icon={faClose}
-        color="#ffd700"
-        size="3x"
-        className="close-icon"
-      /> */}
-      {/* <div onClick={() => setShowNav(!showNav)} className="hamburger-icon">
-        <FontAwesomeIcon
-          icon={showNav ? faClose : faBars}
-          color="#ffd700"
-          size="3x"
-        />
-      </div> */}
     </div>
   );
 };
