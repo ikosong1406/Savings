@@ -77,6 +77,9 @@ const Navbar = () => {
             </div>
           )}
         </div>
+        <div className="button">
+          <h4> Login </h4>
+        </div>
       </nav>
     </div>
   );
