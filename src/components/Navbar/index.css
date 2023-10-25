@@ -70,28 +70,28 @@ h4 {
   }
   #navlinks {
     display: flex;
-    margin-left: 7%;
+    margin-left: 5%;
     margin-top: 1%;
   }
   .home-link,
   .about-link,
   .coach-link,
   .contact-link {
-    font-size: 7px;
+    font-size: 5px;
     margin-top: 10px;
-    margin-left: 5%;
+    margin-left: 3%;
   }
   .button {
-    margin-top: 5px;
+    /* margin-top: -15px; */
+    /* margin-left: -10px; */
   }
   h4 {
-    padding: 5px;
-    font-size: 7px;
+    padding: 10px;
+    font-size: 5px;
   }
   .dropdown-container h3 {
     width: 100px;
-    margin-left: 10px;
-    margin-top: 15px;
-    font-size: 7px;
+    margin-left: 20px;
+    margin-top: 18px;
   }
 }
