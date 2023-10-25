@@ -52,8 +52,13 @@ label {
     color: white;
     padding: 10px;
     font-size: 10px;
+    width: 15%;
     border: none;
     cursor: pointer;
+  }
+  .input-group {
+    display: grid;
+    margin-left: 13%;
   }
   input {
     width: 120px;
