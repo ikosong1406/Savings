@@ -26,8 +26,22 @@
   margin-left: 5%;
   font-size: 13px;
 }
-.coach-link {
+.dropdown-container h3 {
   width: 200px;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+.menu {
+  text-decoration: none;
+  color: white;
+  margin-left: 5%;
+  font-size: 10px;
+}
+.dropdown-menu {
+  background-color: rgba(128, 128, 128, 0.527);
+  width: 100px;
+  padding-bottom: 5px;
+  margin-left: 15px;
 }
 
 @media (max-width: 768px) {

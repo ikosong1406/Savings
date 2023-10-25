@@ -1,4 +1,4 @@
-.about-header {
+.savings-header {
   width: 100%;
   background: rgb(198, 6, 126);
   background: linear-gradient(
@@ -12,22 +12,31 @@
   padding-bottom: 5%;
   color: white;
 }
-.about-header h3 {
+.savings-header h3 {
   font-size: 30px;
 }
 .body {
   padding: 50px;
 }
+li {
+  font-size: 14px;
+}
 
 @media (max-width: 768px) {
   .about-header h3 {
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .body {
     padding: 20px;
   }
+  .body h2 {
+    font-size: 13px;
+  }
   .body p {
     font-size: 10px;
+  }
+  li {
+    font-size: 7px;
   }
 }

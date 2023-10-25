@@ -27,13 +27,13 @@ const About = () => {
 
       <footer class="footer">
         <div className="footer-links">
-          <Link to="/privacy-policy">Privacy Policy</Link>
+          <Link to="/privacy">Privacy Policy</Link>
           <div class="vr"></div>
-          <Link to="/terms-of-use">Terms of Use</Link>
+          <Link to="/terms">Terms of Use</Link>
           <div class="vr"></div>
           <Link to="/eula">EULA</Link>
           <div class="vr"></div>
-          <Link to="/patnership">Patnership</Link>
+          <Link to="/partnership">Partnership</Link>
         </div>
         <div class="container">
           <p>&copy; 2020 THE SAVINGSBOX INC.</p>

@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
-import { useState } from "react";
 import Logo from "../../Imgs/logo2.png";
 import { Link, NavLink } from "react-router-dom";
-import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
+// import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  const toggleDropdown = () => {
+    setShowDropdown(!showDropdown);
+  };
+
   const handleNavigation = (sectionId) => {
     window.location.href = `#${sectionId}`;
+    setShowNav(false);
   };
 
   return (
@@ -18,8 +24,8 @@ const Navbar = () => {
       </Link>
       <nav className={showNav ? "mobile-show" : ""} id="navlinks">
         <NavLink
-          exact="true"
-          activeclassname="active"
+          exact={true}
+          activeClassName="active"
           className="home-link"
           to="/"
           onClick={() => setShowNav(false)}
@@ -27,7 +33,7 @@ const Navbar = () => {
           <h3>HOME</h3>
         </NavLink>
         <NavLink
-          activeclassname="active"
+          activeClassName="active"
           className="about-link"
           to="/about"
           onClick={() => setShowNav(false)}
@@ -35,37 +41,61 @@ const Navbar = () => {
           <h3>ABOUT</h3>
         </NavLink>
         <NavLink
-          activeclassname="active"
+          activeClassName="active"
           className="contact-link"
-          // to="/contact"
-          // onClick={() => setShowNav(false)}
-          onClick={() => handleNavigation("contact")}
-        >
-          <h3>CONTACT</h3>
-        </NavLink>
-        <NavLink
-          activeclassname="active"
-          className="coach-link"
-          to="/about"
+          to="/overview"
           onClick={() => setShowNav(false)}
         >
-          <h3>COACH CENTER</h3>
+          <h3>OVERVIEW</h3>
         </NavLink>
-        {/* <FontAwesomeIcon
-          onClick={() => setShowNav(false)}
-          icon={faClose}
-          color="#ffd700"
-          size="3x"
-          className="close-icon"
-        /> */}
+        <div className="dropdown-container">
+          <h3 className="coach-link" onClick={toggleDropdown}>
+            COACH CENTER
+          </h3>
+          {showDropdown && (
+            <div className="dropdown-menu">
+              <NavLink
+                activeClassName="active"
+                className="menu"
+                to="/savings"
+                onClick={() => setShowNav(false)}
+              >
+                <h3>Savings</h3>
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                className="menu"
+                to="/spending"
+                onClick={() => setShowNav(false)}
+              >
+                <h3>Spending</h3>
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                className="menu"
+                to="/credit"
+                onClick={() => setShowNav(false)}
+              >
+                <h3>Credit</h3>
+              </NavLink>
+            </div>
+          )}
+        </div>
       </nav>
       {/* <FontAwesomeIcon
-        onClick={() => setShowNav(true)}
-        icon={faBars}
+        onClick={() => setShowNav(false)}
+        icon={faClose}
         color="#ffd700"
         size="3x"
-        className="hamburger-icon"
+        className="close-icon"
       /> */}
+      {/* <div onClick={() => setShowNav(!showNav)} className="hamburger-icon">
+        <FontAwesomeIcon
+          icon={showNav ? faClose : faBars}
+          color="#ffd700"
+          size="3x"
+        />
+      </div> */}
     </div>
   );
 };

@@ -1,0 +1,62 @@
+.spending-footer {
+  background: rgb(181, 7, 116);
+  background: linear-gradient(
+    317deg,
+    rgba(181, 7, 116, 1) 0%,
+    rgba(163, 172, 7, 1) 100%
+  );
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 120px;
+}
+.vr {
+  width: 1px;
+  height: 20px;
+  background-color: #800505;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.spending-footer a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+.spending-footer p {
+  font-size: 13px;
+  width: 200px;
+}
+.spending-footer-links {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.spending-footer .container {
+  margin-left: 40%;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .spending-footer {
+    padding-top: 10px;
+    display: grid;
+  }
+  .vr {
+    width: 1px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .spending-footer a {
+    font-size: 10px;
+    width: 50px;
+  }
+  .spending-footer p {
+    font-size: 10px;
+    text-align: center;
+    width: 200px;
+  }
+}
