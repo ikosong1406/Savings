@@ -47,7 +47,7 @@
   margin-top: -15px;
   margin-left: -10px;
 }
-h4 {
+h6 {
   color: white;
   background: rgb(198, 131, 6);
   background: linear-gradient(
@@ -57,6 +57,7 @@ h4 {
   );
   padding: 10px;
   border-radius: 10px;
+  width: 70px;
 }
 
 @media (max-width: 768px) {
@@ -70,7 +71,7 @@ h4 {
   }
   #navlinks {
     display: flex;
-    margin-left: 5%;
+    margin-left: 7%;
     margin-top: 1%;
   }
   .home-link,
@@ -85,13 +86,15 @@ h4 {
     /* margin-top: -15px; */
     /* margin-left: -10px; */
   }
-  h4 {
+  h6 {
     padding: 10px;
     font-size: 5px;
+    width: 100px;
   }
   .dropdown-container h3 {
-    width: 100px;
-    margin-left: 20px;
-    margin-top: 18px;
+    /* width: 50px; */
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: 700;
   }
 }
