@@ -117,7 +117,7 @@ const index = () => {
           <Link to="/partnership">Partnership</Link>
         </div>
         <div class="container">
-          <p>&copy; 2020 THE SAVINGSBOX INC.</p>
+          <p>&copy; 2023 THE SAVINGSBOX INC.</p>
         </div>
       </footer>
     </div>
