@@ -46,9 +46,9 @@
 }
 h6 {
   color: white;
-  width: 70px;
+  width: 100px;
   text-align: center;
-  font-size: 13px;
+  font-size: 11px;
   margin-top: 10px;
 }
 .vr2 {
@@ -99,9 +99,9 @@ h6 {
   }
   h6 {
     color: white;
-    width: 50px;
+    width: 80px;
     text-align: center;
-    font-size: 7px;
+    font-size: 5px;
     margin-top: 10px;
   }
   .vr2 {

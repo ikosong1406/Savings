@@ -32,9 +32,9 @@ const Navbar = () => {
           <h3>COACHING CENTER</h3>
         </NavLink>
         <div className="button">
-          <h6>Login </h6>
+          <h6>Login as Seller</h6>
           <div className="vr2" />
-          <h6> Sign up</h6>
+          <h6> Sign up as seller</h6>
         </div>
       </nav>
     </div>
