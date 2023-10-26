@@ -203,8 +203,6 @@ const index = () => {
           <div class="vr"></div>
           <Link to="/terms">Terms of Use</Link>
           <div class="vr"></div>
-          <Link to="/eula">EULA</Link>
-          <div class="vr"></div>
           <Link to="/partnership">Partnership</Link>
         </div>
         <div class="container">
