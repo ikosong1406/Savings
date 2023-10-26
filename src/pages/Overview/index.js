@@ -108,7 +108,7 @@ const index = () => {
         </div>
       </div>
 
-      <footer class="spending-footer">
+      <footer class="footer">
         <div className="footer-links">
           <Link to="/privacy">Privacy Policy</Link>
           <div class="vr"></div>

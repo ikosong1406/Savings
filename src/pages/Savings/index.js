@@ -6,7 +6,7 @@ const index = () => {
   return (
     <div class="aboutContainer">
       <div class="savings-header">
-        <h3>Savings</h3>
+        <h3>Coaching Center</h3>
       </div>
       <div class="body">
         <h2>HOW TO INCREASE YOUR SAVINGS?</h2>
